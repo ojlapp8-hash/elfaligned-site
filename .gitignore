@@ -1,0 +1,13 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+verify/lighthouse-*.json
+verify/axe.min.js
+.env*
+.DS_Store
+Thumbs.db
+
+# Source PNGs (originals kept for regeneration via tools/optimize_images.py; not referenced by pages)
+assets/img/logo.png
+assets/img/team.png

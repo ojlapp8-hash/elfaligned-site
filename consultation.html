@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Pre-Check — ELFALIGNED LLC | Gaylord, Michigan</title>
+<meta name="description" content="A free pre-check from ELFALIGNED LLC. Fill out the form so we can see whether a plan is viable for your business — then decide about the $250 consultation.">
+<link rel="canonical" href="https://example.com/consultation.html">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0d10">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ELFALIGNED LLC">
+<meta property="og:title" content="Free Pre-Check — ELFALIGNED LLC">
+<meta property="og:description" content="Fill out the form. We'll tell you whether a plan is viable for your business — before you spend anything.">
+<meta property="og:url" content="https://example.com/consultation.html">
+<meta property="og:image" content="https://example.com/assets/img/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/tokens.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/" aria-label="ELFALIGNED LLC — home">
+      <svg class="brand__mark" viewBox="0 0 48 48" role="img" aria-hidden="true" focusable="false">
+        <polygon points="24,2 44,13 44,35 24,46 4,35 4,13" fill="#12171c" stroke="#2fd4b4" stroke-width="1.6"/>
+        <polygon points="24,8 38,16 38,32 24,40 10,32 10,16" fill="none" stroke="#1c8f7c" stroke-width="1"/>
+        <path d="M19 17 L19 31 M19 17 L29 17 M19 24 L27 24" stroke="#2fd4b4" stroke-width="2.2" fill="none" stroke-linecap="square"/>
+        <circle cx="24" cy="13.5" r="1.4" fill="#2fd4b4"/>
+        <circle cx="33" cy="28" r="1.4" fill="#2fd4b4"/>
+        <circle cx="15" cy="28" r="1.4" fill="#2fd4b4"/>
+      </svg>
+      <span class="brand__text">
+        <span class="brand__name">ELF<span>ALIGNED</span> LLC</span>
+        <span class="brand__tag">ANALYZE. BENCHMARK. BUILD.</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="/">Home</a></li>
+        <li><a class="nav__link" href="/services.html">Services</a></li>
+        <li><a class="nav__link" href="/approach.html">Approach</a></li>
+        <li><a class="nav__link" href="/web-design.html">Web Design</a></li>
+        <li><a class="nav__link" href="/work.html">Work</a></li>
+        <li><a class="nav__link" href="/about.html">About</a></li>
+        <li><a class="nav__link" href="/consultation.html">Free Pre-Check</a></li>
+        <li><a class="nav__link" href="/contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="nav-panel">
+        <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span data-nav-label>Menu</span>
+      </button>
+      <div class="nav__panel" id="nav-panel" data-nav-panel data-open="false">
+        <ul>
+          <li><a class="nav__link" href="/">Home</a></li>
+          <li><a class="nav__link" href="/services.html">Services</a></li>
+          <li><a class="nav__link" href="/approach.html">Approach</a></li>
+          <li><a class="nav__link" href="/web-design.html">Web Design</a></li>
+          <li><a class="nav__link" href="/work.html">Work</a></li>
+          <li><a class="nav__link" href="/about.html">About</a></li>
+          <li><a class="nav__link" href="/consultation.html">Free Pre-Check</a></li>
+          <li><a class="nav__link" href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">Free pre-check</p>
+      <h1>Let's find out whether a plan is viable for your business.</h1>
+      <p class="lede">
+        Fill out the form below. It's free, and it starts two things at once:
+        we collect the basics about your operation, and we get a first read on
+        whether there's a real plan here — before either of us spends money.
+      </p>
+      <p class="lede" style="margin-top: var(--space-4);">
+        This is a pre-check, not the consultation itself. If what you send
+        looks like there's something worth doing, the next step is the
+        <strong>$250 consultation</strong> — where we do the full analysis,
+        benchmarking, and the detailed plan with a quote. You'll know which it
+        is before you pay anything.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width: 46rem;">
+
+      <!--
+        WIRING NOTE (see DEPLOY.md):
+        - data-endpoint : POST target once a form service is chosen
+                          (Cloudflare Workers binding, Formspree, or similar).
+                          Leave empty to use the mailto fallback below.
+        - data-mailto   : address the message goes to when JS is on.
+        Without JS, this form still works: the browser posts to the action
+        below, which opens the visitor's mail client with everything filled in.
+      -->
+      <form class="form" method="post" action="mailto:hello@example.com"
+            enctype="text/plain" data-contact-form
+            data-endpoint="" data-mailto="hello@example.com"
+            data-subject-prefix="Free pre-check request" novalidate>
+
+        <div class="form__row">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <p class="field__error" id="name-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="position">Your position <span class="hint">(optional)</span></label>
+            <input id="position" name="position" type="text" autocomplete="organization-title">
+          </div>
+        </div>
+
+        <div class="form__row">
+          <div class="field">
+            <label for="company">Company or business name <span class="hint">(optional)</span></label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone <span class="hint">(optional)</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email"
+                 inputmode="email" required aria-describedby="email-hint">
+          <p class="hint" id="email-hint">We reply to this address, and only this address.</p>
+          <p class="field__error" id="email-error" hidden></p>
+        </div>
+
+        <fieldset class="field choice-group">
+          <legend>Organization type <span class="hint">(optional)</span></legend>
+          <label class="choice"><input type="radio" name="orgtype" value="Sole proprietorship" data-label="Organization type"> Sole proprietorship</label>
+          <label class="choice"><input type="radio" name="orgtype" value="Partnership" data-label="Organization type"> Partnership</label>
+          <label class="choice"><input type="radio" name="orgtype" value="LLC" data-label="Organization type"> LLC</label>
+          <label class="choice"><input type="radio" name="orgtype" value="Corporation" data-label="Organization type"> Corporation</label>
+          <label class="choice"><input type="radio" name="orgtype" value="Nonprofit" data-label="Organization type"> Nonprofit</label>
+          <label class="choice"><input type="radio" name="orgtype" value="Other" data-label="Organization type"> Other</label>
+        </fieldset>
+
+        <div class="field">
+          <label for="business">Describe your business</label>
+          <textarea id="business" name="business" required
+                    aria-describedby="business-hint"
+                    placeholder="What do you do, who do you serve, and roughly how big is the operation?"></textarea>
+          <p class="hint" id="business-hint">
+            A few sentences is plenty. What you do, who buys it, and how many
+            people are involved.
+          </p>
+          <p class="field__error" id="business-error" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="strong">What do you see as your strong points?</label>
+          <textarea id="strong" name="strong" required
+                    aria-describedby="strong-hint"
+                    placeholder="What does your business do well? Where do you beat the competition?"></textarea>
+          <p class="hint" id="strong-hint">
+            Your own read. We'll compare it against your sector and region
+            rather than take it on faith.
+          </p>
+          <p class="field__error" id="strong-error" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="weak">Where do you feel stress or weakness?</label>
+          <textarea id="weak" name="weak" required
+                    aria-describedby="weak-hint"
+                    placeholder="What's slow, manual, fragile, or keeps going wrong?"></textarea>
+          <p class="hint" id="weak-hint">
+            The part that worries you. It's often not where the actual problem
+            turns out to be — that's what the analysis is for.
+          </p>
+          <p class="field__error" id="weak-error" hidden></p>
+        </div>
+
+        <div class="field">
+          <label for="tool">Is there a specific tool or product you want? <span class="hint">(optional)</span></label>
+          <input id="tool" name="tool" type="text"
+                 placeholder="e.g. a quoting tool, a customer database, an AI assistant">
+          <p class="hint" id="tool-hint">
+            If you already know what you're after, say so. If not, leave it
+            blank — we'll recommend based on what your data shows.
+          </p>
+        </div>
+
+        <div class="btn-row">
+          <button class="btn btn--primary" type="submit" data-form-submit>Send my pre-check</button>
+        </div>
+
+        <p class="form__status" data-form-status role="status" hidden></p>
+
+        <p class="form__note">
+          No newsletter, no CRM sequence, no third-party tracking on this page.
+          Your answers go to us and nowhere else. If the form is unreachable,
+          it falls back to your own email app so nothing gets lost.
+        </p>
+      </form>
+
+      <div class="cta-band" style="margin-top: var(--space-8);">
+        <div>
+          <h2>What happens after you send this</h2>
+          <p>
+            We read what you sent and get back to you quickly — generally
+            three business days or less, depending on current project
+            workload — with a straight answer: either there's a plan worth
+            pursuing, and the next step is the <strong>$250 consultation</strong>
+            — or there isn't, and we'll tell you that instead. Either way you'll know
+            before you spend anything.
+          </p>
+          <p style="margin-top: var(--space-4);">
+            If your team lacks technical knowledge, that's not a barrier. Our
+            services can continue with ongoing support and maintenance, or a
+            total handoff — documented so you can run everything without us.
+            Your choice, decided up front.
+          </p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--ghost" href="/contact.html">Ask us something first</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__grid">
+      <div>
+        <h2>ELFALIGNED LLC</h2>
+        <p style="color: var(--text-muted); font-size: var(--step--1); max-width: 34ch;">
+          Small business consulting: analysis, benchmarking, and technology
+          solutions delivered through agentic bots. Based in Gaylord, Michigan.
+        </p>
+        <p class="brand__tag" style="margin-top: var(--space-4);">ANALYZE. BENCHMARK. BUILD.</p>
+      </div>
+      <nav aria-label="Footer">
+        <h2>Site</h2>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/approach.html">Approach</a></li>
+          <li><a href="/web-design.html">Web Design</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/consultation.html">Free Pre-Check</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><a href="tel:+15555550100">(555) 555-0100</a></li>
+          <li><a href="/contact.html">Gaylord, Michigan</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__base">
+      <span>&copy; <span data-year>2026</span> ELFALIGNED LLC. All rights reserved.</span>
+      <span>Analyze. Benchmark. Build.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/site.js" defer></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 /* ==========================================================================
    ELFALIGNED LLC — design tokens
-   Derived from the brand mark: gunmetal hex, teal accents, "Sovereign. Native. Edge."
+   Derived from the brand mark: gunmetal hex, teal accents, "Automate. Govern. Build."
    One structural idea: the hexagon. Corners, rules, and section markers all
    derive from a hexagon's geometry (120° angles, layered edges).
    ========================================================================== */
@@ -311,6 +311,12 @@ p  { margin: 0 0 var(--space-4); max-width: var(--measure); }
   width: 10px; height: 11px; background: var(--accent);
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
+.card__foot {
+  margin-top: var(--space-5); padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+  font-size: var(--step--1); color: var(--text-dim); line-height: 1.5;
+}
+.card__foot .foot-src { color: var(--text-muted); }
 
 /* ==========================================================================
    Process — numbered steps, the hex idea as a timeline

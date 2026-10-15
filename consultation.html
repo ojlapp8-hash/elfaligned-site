@@ -38,7 +38,7 @@
       </svg>
       <span class="brand__text">
         <span class="brand__name">ELF<span>ALIGNED</span> LLC</span>
-        <span class="brand__tag">ANALYZE. BENCHMARK. BUILD.</span>
+        <span class="brand__tag">AUTOMATE. GOVERN. BUILD.</span>
       </span>
     </a>
     <nav class="nav" aria-label="Primary">
@@ -86,8 +86,8 @@
       <p class="lede" style="margin-top: var(--space-4);">
         This is a pre-check, not the consultation itself. If what you send
         looks like there's something worth doing, the next step is the
-        <strong>$250 consultation</strong> — where we do the full analysis,
-        benchmarking, and the detailed plan with a quote. You'll know which it
+        <strong>$250 consultation</strong> — where we study how your operation
+        runs and deliver a detailed plan with a quote. You'll know which it
         is before you pay anything.
       </p>
     </div>
@@ -125,8 +125,9 @@
 
         <div class="form__row">
           <div class="field">
-            <label for="company">Company or business name <span class="hint">(optional)</span></label>
-            <input id="company" name="company" type="text" autocomplete="organization">
+            <label for="company">Company or business name</label>
+            <input id="company" name="company" type="text" autocomplete="organization" required>
+            <p class="field__error" id="company-error" hidden></p>
           </div>
 
           <div class="field">
@@ -206,9 +207,11 @@
         <p class="form__status" data-form-status role="status" hidden></p>
 
         <p class="form__note">
-          No newsletter, no CRM sequence, no third-party tracking on this page.
-          Your answers go to us and nowhere else. If the form is unreachable,
-          it falls back to your own email app so nothing gets lost.
+          No CRM drip sequence, no third-party tracking on this page. Your
+          answers go to us and nowhere else. If the form is unreachable, it
+          falls back to your own email app so nothing gets lost. The only
+          newsletter we send is the Weekly Business Brief, and only if you
+          ask for it.
         </p>
       </form>
 
@@ -246,10 +249,9 @@
       <div>
         <h2>ELFALIGNED LLC</h2>
         <p style="color: var(--text-muted); font-size: var(--step--1); max-width: 34ch;">
-          Small business consulting: analysis, benchmarking, and technology
-          solutions delivered through agentic bots. Based in Gaylord, Michigan.
+          AI automation and consulting — we automate the mundane and govern the AI so it stays safe. Based in Gaylord, Michigan.
         </p>
-        <p class="brand__tag" style="margin-top: var(--space-4);">ANALYZE. BENCHMARK. BUILD.</p>
+        <p class="brand__tag" style="margin-top: var(--space-4);">AUTOMATE. GOVERN. BUILD.</p>
       </div>
       <nav aria-label="Footer">
         <h2>Site</h2>
@@ -275,7 +277,7 @@
     </div>
     <div class="site-footer__base">
       <span>&copy; <span data-year>2026</span> ELFALIGNED LLC. All rights reserved.</span>
-      <span>Analyze. Benchmark. Build.</span>
+      <span>Automate. Govern. Build.</span>
     </div>
   </div>
 </footer>

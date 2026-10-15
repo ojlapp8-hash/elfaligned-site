@@ -60,7 +60,7 @@
       </svg>
       <span class="brand__text">
         <span class="brand__name">ELF<span>ALIGNED</span> LLC</span>
-        <span class="brand__tag">ANALYZE. BENCHMARK. BUILD.</span>
+        <span class="brand__tag">AUTOMATE. GOVERN. BUILD.</span>
       </span>
     </a>
     <nav class="nav" aria-label="Primary">
@@ -143,8 +143,9 @@
           </div>
 
           <div class="field">
-            <label for="org">Business or organization <span class="hint">(optional)</span></label>
-            <input id="org" name="org" type="text" autocomplete="organization">
+            <label for="org">Business or organization</label>
+            <input id="org" name="org" type="text" autocomplete="organization" required>
+            <p class="field__error" id="org-error" hidden></p>
           </div>
 
           <div class="field">
@@ -152,10 +153,10 @@
             <select id="topic" name="topic">
               <option value="">Not sure yet</option>
               <option value="Consultation">General consultation — free preliminary check</option>
-              <option value="Data analysis">Data collection and analysis</option>
-              <option value="Benchmarking">Sector and regional benchmarking</option>
-              <option value="Technology solutions">Technology or software solution</option>
-              <option value="Agentic bots">Agentic bot development</option>
+              <option value="Newsletter">Weekly Business Brief — newsletter (see services)</option>
+              <option value="AI Governance Audit">AI governance audit</option>
+              <option value="Automation">Mundane-task automation</option>
+              <option value="Marketing study">Marketing focus &amp; budget study</option>
               <option value="Website design">Website design or rebuild</option>
               <option value="Something else">Something else</option>
             </select>
@@ -180,9 +181,11 @@
           <p class="form__status" data-form-status role="status" hidden></p>
 
           <p class="form__note">
-            No newsletter, no CRM sequence, no third-party tracking on this page.
-            Your message goes to us and nowhere else. If the form is unreachable,
+            No CRM drip sequence, no third-party tracking on this page. Your
+            message goes to us and nowhere else. If the form is unreachable,
             it falls back to your own email app so nothing gets lost.
+            The Weekly Business Brief is the only newsletter we send, and only
+            if you ask for it.
           </p>
         </form>
       </div>
@@ -205,6 +208,16 @@
           <dt>Hours</dt>
           <dd>Monday–Friday, 8:00–5:00 ET</dd>
         </dl>
+
+        <section class="card" style="margin-top: var(--space-7);">
+          <p class="eyebrow">Weekly Business Brief</p>
+          <h2 style="font-size: var(--step-1);">The news your business actually needs, once a week.</h2>
+          <p style="font-size: var(--step--1);">
+            $25/year. National, regional, and local news that touches your
+            business, plus the gossip worth hearing — with source links in
+            every issue. Choose "Weekly Business Brief" in the form above.
+          </p>
+                    </section>
 
         <h2 style="margin-top: var(--space-7);">What happens next</h2>
         <ol class="steps" style="counter-reset: step;">
@@ -252,10 +265,9 @@
       <div>
         <h2>ELFALIGNED LLC</h2>
         <p style="color: var(--text-muted); font-size: var(--step--1); max-width: 34ch;">
-          Small business consulting: analysis, benchmarking, and technology
-          solutions delivered through agentic bots. Based in Gaylord, Michigan.
+          AI automation and consulting — we automate the mundane and govern the AI so it stays safe. Based in Gaylord, Michigan.
         </p>
-        <p class="brand__tag" style="margin-top: var(--space-4);">ANALYZE. BENCHMARK. BUILD.</p>
+        <p class="brand__tag" style="margin-top: var(--space-4);">AUTOMATE. GOVERN. BUILD.</p>
       </div>
       <nav aria-label="Footer">
         <h2>Site</h2>
@@ -281,7 +293,7 @@
     </div>
     <div class="site-footer__base">
       <span>&copy; <span data-year>2026</span> ELFALIGNED LLC. All rights reserved.</span>
-      <span>Analyze. Benchmark. Build.</span>
+      <span>Automate. Govern. Build.</span>
     </div>
   </div>
 </footer>

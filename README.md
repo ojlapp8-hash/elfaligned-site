@@ -1,17 +1,20 @@
 # ELFALIGNED LLC — Website
 
-A static marketing site for ELFALIGNED LLC: a small business consulting firm
-in Gaylord, Michigan, that turns a client's own data into action.
+A static marketing site for ELFALIGNED LLC: an AI automation and consulting
+firm in Gaylord, Michigan, that automates the mundane and governs the AI so it
+stays safe.
 
 ## What this is
 
 Eight hand-written HTML pages with one shared CSS file and one progressive-
 enhancement JS file. No framework, no build step, no runtime dependencies.
 
-**Positioning:** a consulting firm that happens to build software. Data in,
-written plan out. Analysis and benchmarking come first; technology is how the
-gaps get closed. Platform scope is Windows and Android only, plus
-LAN-interconnected network applications between those devices.
+**Positioning:** we automate the repetitive tasks nobody wants to do — inbox
+triage, lead follow-up, CRM updates, document processing — and govern the AI so
+it stays safe. Not new operating systems. Existing software (such as
+QuickBooks) stays; we build the layer around it. Platform scope is Windows and
+Android only, plus LAN-interconnected network applications between those
+devices.
 
 ## Source of truth for copy
 
@@ -52,9 +55,9 @@ budgets, internal linking.
 
 ```
 site/
-├── index.html          Home — consulting-first story
-├── services.html       Six services + pricing section
-├── approach.html       Four steps: analyze → benchmark → recommend → plan+quote
+├── index.html          Home — automate the mundane (hero, differentiation)
+├── services.html       Five AI lanes + Weekly Business Brief + pricing section
+├── approach.html       Four steps: study → automate → deploy → plan+quote
 ├── web-design.html     Website design service (dedicated page)
 ├── work.html           Four engagements (before/built/after)
 ├── about.html          Founder background, mission, scope

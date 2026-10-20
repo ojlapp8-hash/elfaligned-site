@@ -53,7 +53,7 @@ buying and what it costs before a dollar moves.
 - **Platforms:** Windows and Android systems only, at this time.
 - **Connectivity:** LAN-interconnected network applications between those
   devices.
-- **Services:** AI governance audits; mundane-task automation; AI cost
-  governance; custom software and builds; marketing focus and budget studies;
-  website design; implementation planning and quoting.
+- **Services:** AI governance audits; mundane-task automation; custom software
+  and builds; marketing focus and budget studies; website design;
+  implementation planning and quoting.
 - **Standing offering:** Weekly Business Brief, a $25/year email newsletter.

@@ -12,7 +12,7 @@ Windows and Android only, plus LAN-interconnected network applications.
 | # | Page | Path | Purpose | Primary CTA |
 |---|------|------|---------|-------------|
 | 1 | Home | `/` | Automation-first story: automate the mundane, govern the AI, differentiate from generic chatbots | "Free pre-check" → `/consultation.html` |
-| 2 | Services | `/services.html` | Five lanes (governance, automation, cost, custom build, marketing) + Weekly Business Brief + how-we-engage | "Free pre-check" → `/consultation.html` |
+| 2 | Services | `/services.html` | Six lanes (governance, automation, custom build, website design, marketing) + Weekly Business Brief + how-we-engage | "Free pre-check" → `/consultation.html` |
 | 3 | Approach | `/approach.html` | Four steps: study the operation → pick what's worth automating → deploy supervised agent or off-the-shelf → plan+quote, then governance | "Free pre-check" → `/consultation.html` |
 | 4 | Web Design | `/web-design.html` | Website design service, quoted on outcome | "Free pre-check" → `/consultation.html` |
 | 5 | Work | `/work.html` | Four engagements (before/built/after) | "Free pre-check" → `/consultation.html` |

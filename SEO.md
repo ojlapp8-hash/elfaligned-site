@@ -7,12 +7,12 @@ Canonical domain: `https://example.com` (replace before launch — update in all
 
 | Page | Primary keyword | Secondary keywords | Intent |
 |------|----------------|-------------------|--------|
-| `/` | custom software Gaylord Michigan | local private software, small business software, AI architecture Northern Michigan | Transactional |
-| `/services.html` | custom software development services | local AI assistant, system integration, native Android development, software architecture consulting | Transactional |
-| `/approach.html` | software development approach | local-first development, fixed-scope software, hands-on development | Informational |
-| `/work.html` | software development case studies | quote generator, document search, integration bridge, edge-native Android | Informational |
-| `/about.html` | ELFALIGNED LLC | sovereign software architecture, edge-native technology, Gaylord Michigan | Navigational |
-| `/contact.html` | contact software developer Michigan | Gaylord Michigan software, Northern Michigan AI | Transactional |
+| `/` | AI automation Gaylord Michigan | automate the mundane, governed AI, small business automation Northern Michigan | Transactional |
+| `/services.html` | AI automation services | AI governance audit, mundane-task automation, custom software, website design, marketing focus study | Transactional |
+| `/approach.html` | how we automate business tasks | supervised agents, plan and quote first, local AI | Informational |
+| `/work.html` | automation case studies | supervised agents, repetitive work, before and after | Informational |
+| `/about.html` | ELFALIGNED LLC | 22 years tractor dealership, AI automation Gaylord Michigan | Navigational |
+| `/contact.html` | contact ELFALIGNED | AI automation Michigan, free pre-check | Transactional |
 
 ## Titles and descriptions (as shipped)
 

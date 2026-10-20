@@ -100,7 +100,7 @@ h1, h2, h3, h4 { line-height: 1.15; margin: 0 0 var(--space-4); font-weight: 650
 h1 { font-size: var(--step-4); }
 h2 { font-size: var(--step-3); }
 h3 { font-size: var(--step-1); }
-p  { margin: 0 0 var(--space-4); max-width: var(--measure); }
+p  { margin: 0 0 var(--space-4); max-width: min(var(--measure), 100%); }
 
 :focus-visible {
   outline: 3px solid var(--focus);
